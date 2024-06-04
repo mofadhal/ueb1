@@ -37,7 +37,6 @@ double berechneDurchschnitt(int* zahlen, int anzahlWerte) {
     return static_cast<double>(sum) / anzahlWerte;
 }
 
-
 int bestimmeMaximum(int* zahlen, int anzahlWerte) {
     if (anzahlWerte == 0) {
         return 0; // No maximum for an empty array
